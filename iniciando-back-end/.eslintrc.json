@@ -29,11 +29,7 @@
       "warn",
       {
         "newlinesBetween": "always",
-        "groups": [
-          "/^express/",
-          "module",
-          ["parent", "sibling", "index"]
-        ],
+        "groups": ["/^express/", "module", ["parent", "sibling", "index"]],
         "alphabetize": {
           "order": "asc",
           "ignoreCase": true
@@ -46,6 +42,7 @@
     "generator-star-spacing": "off",
     "comma-dangle": "off",
     "prefer-template": "error",
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePatern": "_" }],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "camelcase": "off"
   },
