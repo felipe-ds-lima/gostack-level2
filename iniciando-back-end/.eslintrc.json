@@ -46,7 +46,8 @@
     "generator-star-spacing": "off",
     "comma-dangle": "off",
     "prefer-template": "error",
-    "@typescript-eslint/explicit-module-boundary-types": "off"
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "camelcase": "off"
   },
   "settings": {
     "import/resolver": {
